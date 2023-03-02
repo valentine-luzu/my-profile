@@ -1,0 +1,91 @@
+/* arrière plan */
+body{
+background:#F9F5E7;
+text-align: center; 
+}
+
+.container{
+width: 1100px;
+margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container{
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container{
+    width: 400px;
+  }
+}
+
+.card-white{
+background: white;
+margin: 60px;
+padding: 50px;
+border-radius: 5px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+text-align: center;
+}
+
+h1,h2 {
+  font-family: 'Gloock', serif;
+}
+
+h1{
+color: #FF8B8B;
+font-size:34px;
+font-weight: 900;
+}
+
+h2{
+color: #FFA5A5;
+font-size: 26px;
+font-weight:lighter;
+font-weight: 900;
+}
+
+/* photo de présentation */
+.img-circle {
+border-radius: 50%;
+width: 100px;
+}
+
+#leader {
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+}
+
+ul {
+list-style-type: none;
+display: flex;
+justify-content: center;
+}
+
+li {
+padding: 40px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+a:link, a:visited, a:focus {
+  background: #F9F5E7;
+}
+
+a:hover {
+  background: #61BFAD;
+}
+
+a:active {
+  background: #F9F7E8;
+  color: black;
+}
